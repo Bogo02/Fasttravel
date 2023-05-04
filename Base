@@ -1,1 +1,23 @@
 
+project-name/
+    src/
+        main/
+            java/           
+                com/
+                    example/
+                        MyClass.java
+            resources/      # additional resources (e.g., configuration files)
+                config.properties
+            webapp/         # web application resources (if applicable)
+                WEB-INF/
+                    web.xml
+                    jsp/
+                        index.jsp
+        test/
+            java/           # source code for the project's test code
+                com/
+                    example/
+                        MyClassTest.java
+            resources/      
+    target/                 
+    pom.xml                 
